@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #242830;
+    color: #61dafb;
+    font-family: 'Arial', sans-serif;
+}
+
+.clock {
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.3s, border 0.3s;
+    padding: 20px; 
+    border: 8px solid #61dafb; 
+    border-radius: 10px; 
+}
+
+.clock:hover {
+    color: #ff8c00; 
+    border-color: #ff8c00; 
+}
+
+#date {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
